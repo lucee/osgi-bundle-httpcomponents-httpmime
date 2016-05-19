@@ -120,8 +120,10 @@
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
             <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.1</Require-Bundle>
-            <Import-Package>!org.apache.http.message,!org.apache.http.impl.entity</Import-Package>
-            <DynamicImport-Package>org.apache.http.message,org.apache.http.impl.entity</DynamicImport-Package>
+            <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment>
+            <Import-Package>!org.apache.http.impl.entity,*</Import-Package>
+            <DynamicImport-Package>org.apache.http.impl.entity</DynamicImport-Package> -->
+          <!-- <Fragment-Host></Fragment-Host> -->
           </instructions>
         </configuration>
         <extensions>true</extensions>
