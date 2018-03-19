@@ -119,7 +119,7 @@
             <Bundle-SymbolicName>org.lucee.httpcomponents.httpmime</Bundle-SymbolicName>
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
-            <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.4,org.lucee.httpcomponents.httpclient;bundle-version=4.5.2</Require-Bundle>
+            <Require-Bundle>org.lucee.httpcomponents.httpcore;bundle-version=4.4.6,org.lucee.httpcomponents.httpclient;bundle-version=4.5.3</Require-Bundle>
             <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment>
             <Import-Package>!org.apache.http.impl.entity,*</Import-Package>
             <DynamicImport-Package>org.apache.http.impl.entity</DynamicImport-Package> -->
